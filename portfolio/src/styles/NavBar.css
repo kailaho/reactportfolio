@@ -1,0 +1,38 @@
+#NavWrapper{
+    background-color: white;
+    box-shadow: 2px 2px 5px 0 rgba(185, 185, 185, 0.5);
+    margin: 0em;
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style: none;
+    padding-left: 55em;
+}
+
+
+
+#logo{
+   width: 5%;
+   padding-left: 2em;
+   padding-top: .5em;
+   padding-right: 0em; 
+}
+
+li{
+    display: inline-block;
+    padding: 2.5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 16px;
+}
+
+.no_line{
+    text-decoration: none;
+    color: black;
+}
+
+.no_line:hover{
+    font-weight: bold;
+}
