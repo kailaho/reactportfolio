@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import HomeProjectCard from './HomeProjectCard.js';
+import HomeAnimation from './HomeAnimation.js';
 import hikeImg from '../img/hike.jpeg';
 import formImg from '../img/formImg.png';
 import matchaImg from '../img/matcha.png';
@@ -8,8 +9,12 @@ import matchaImg from '../img/matcha.png';
 const Home = () => {
     return(
         <>
+        
         <div id="wrapper">
-            <h1>Home Page</h1>
+
+        <div>
+        <HomeAnimation/>
+        </div>
         
         <div id ="CardContainer">
         <HomeProjectCard
