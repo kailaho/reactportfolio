@@ -2,7 +2,7 @@
     margin: 0em;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
@@ -13,10 +13,16 @@
 
 h1{
     margin: 1em;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
 }
 
 ul{
     margin: 0em;
+}
+
+#column2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
