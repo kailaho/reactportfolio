@@ -45,3 +45,8 @@ ul{
     margin: 0em;
 }
 
+#seeMoreContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
