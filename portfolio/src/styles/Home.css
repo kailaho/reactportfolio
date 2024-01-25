@@ -9,6 +9,21 @@
 #CardContainer{
     display: flex;
    flex-direction: row;
+   justify-content: space-evenly;
+   margin: 3em;
+   margin-top: 0em;
+}
+
+#columnWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+#titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 h1{
@@ -17,12 +32,16 @@ h1{
     text-align: left;
 }
 
+h2{
+    justify-content: center;
+    text-align: center;
+    background-color: #77b9f2;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
 ul{
     margin: 0em;
 }
 
-#column2{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
