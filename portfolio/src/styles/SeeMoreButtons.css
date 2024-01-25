@@ -1,5 +1,5 @@
 .seeMoreButton{
-    font-weight: medium;
+    font-weight: bold;
     width: 15%;
     background-color: black;
     padding: 1em;
@@ -10,4 +10,5 @@
     text-align: center;
     justify-content: center;
     text-decoration: none;
+    margin-top: 1em;
 }
