@@ -53,10 +53,18 @@
 
 .dropItem{
     text-decoration: none;
-    font-size: .95em;
-    padding-bottom: 1.5em;
-    margin: 0em;
+    font-size: .90em;
+    color: black;
+    padding-bottom: 3em;
 }
+
+.dropItem:hover {
+    font-weight: bold;
+}
+
+/* .dropLI{
+    padding-bottom: 1em;
+} */
 
 
 #logo{

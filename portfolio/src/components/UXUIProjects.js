@@ -1,10 +1,9 @@
 import React from 'react';
+import BannerAnimation from './BannerAnimation';
 
 const UXUIProjects = () => {
     return(
-        <div>
-            <h1>UX/UI Projects Page</h1>
-        </div>
+        <BannerAnimation text={"UX/UI Projects"}/>
     );
 };
 

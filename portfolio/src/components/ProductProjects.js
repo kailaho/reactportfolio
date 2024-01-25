@@ -1,8 +1,9 @@
 import React from 'react';
+import BannerAnimation from './BannerAnimation';
 
 const ProductProjects = () => {
     return (
-        <h1>Product Desgin Projects</h1>
+        <BannerAnimation text={"Product Design Projects"}/>
     );
 };
 

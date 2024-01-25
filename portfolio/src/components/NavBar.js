@@ -22,9 +22,9 @@ const NavBar = () => {
                             Projects 🔽
                                 {showDropdown && (
                                     <ul id="dropMenu">
-                                        <li className ="dropItem"><Link to="/uxuiprojects">UX/UI</Link></li>
-                                        <li className ="dropItem"><Link to="/webdevprojects">Web Development</Link></li>
-                                        <li className ="dropItem"><Link to="/productprojects">Product Design</Link></li>
+                                        <li className="dropLI"><Link className ="dropItem" to="/uxuiprojects">UX/UI</Link></li>
+                                        <li className="dropLI"><Link className ="dropItem" to="/webdevprojects">Web Development</Link></li>
+                                        <li className="dropLI"><Link className ="dropItem" to="/productprojects">Product Design</Link></li>
                                     </ul>
                                 )}
                         </div>
