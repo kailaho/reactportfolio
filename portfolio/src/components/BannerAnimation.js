@@ -28,9 +28,9 @@ const BannerAnimation= ({text}) => {
   return (
     <>
     
-    <div style={{position: 'absolute', top: '20vh', left: '0', width: '100%', height: '8vh', background: `linear-gradient(to top, white, transparent)`, zIndex: 4}}></div>
-    <animated.div style={{ ...props, height: '18vh', width: '100%',display: 'flex', flexDirection:'column', alignItems: 'center', justifyContent: 'center', position: 'relative', zIndex: 3}}>
-      <h2 style={{color: 'black', background: 'none', fontSize: '2.5em'}}>{text}</h2>
+    <div style={{position: 'absolute', top: '16vh', left: '0', width: '100%', height: '12vh', background: `linear-gradient(to top, white, transparent)`, zIndex: '4'}}></div>
+    <animated.div style={{ ...props, height: '18vh', width: '100%',display: 'flex', flexDirection:'column', alignItems: 'center', justifyContent: 'center', position: 'relative', zIndex: '3'}}>
+      <h2 style={{color: 'black', background: 'none', fontSize: '2.5em', zIndex: '5'}}>{text}</h2>
     </animated.div>
     </>
   );

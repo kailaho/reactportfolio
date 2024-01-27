@@ -27,7 +27,7 @@ const TitleAnimation = ({text}) => {
 
   return (
     <>
-    <animated.div style={{ ...props, width: '70%', alignItems: 'center', textAlign: 'center', justifyContent: 'center', padding: '1em', borderRadius: '1.5em', margin: '1em'}}>
+    <animated.div style={{ ...props, width: '70%', alignItems: 'center', textAlign: 'center', justifyContent: 'center', padding: '1em', borderRadius: '1.5em', margin: '1em', boxShadow: '0 4px 8px rgba(128, 128, 128, 0.5)' }}>
       <h3>{text}</h3>
     </animated.div>
     </>
