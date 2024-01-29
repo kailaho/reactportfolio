@@ -3,7 +3,8 @@ import { useSpring, animated } from 'react-spring';
 
 const HomeAnimation = () => {
   const [gradientColors, setGradientColors] = useState(['#77b9f2', '#ed2b55', '#f5e1f3']);
-  
+  //red, white, blue color scheme: ['#77b9f2', '#ed2b55', '#f5e1f3']
+  //neutral color scheme: ['#f0deb9', '#faf7f2', '#d1ad71'] 
   // Define the animation for the background color
   const props = useSpring({
     background: `linear-gradient(50deg, ${gradientColors[0]}, ${gradientColors[1]}, ${gradientColors[2]})`,

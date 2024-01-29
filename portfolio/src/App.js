@@ -8,6 +8,8 @@ import UXUIProjects from './components/UXUIProjects';
 import WebDevProjects from './components/WebDevProjects';
 import ProductProjects from './components/ProductProjects';
 import Contact from './components/Contact';
+import NativePlants from './components/projectDetails/NativePlants.js';
+import GnomeStyler from './components/projectDetails/GnomeStyler.js';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/webdevprojects" element={<WebDevProjects/>}/>
         <Route path="/productprojects" element={<ProductProjects/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/nativePlants" element={<NativePlants/>}/>
+        <Route path="/gnomeStyler" element={<GnomeStyler/>}/>
       </Routes>
     </div>
    </Router>

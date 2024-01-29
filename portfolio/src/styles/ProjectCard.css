@@ -26,6 +26,7 @@
     width: 45%;
     height: auto;
     margin: 1em;
+    margin-top: 1em;
     border-radius: 1.5em;
 }
 
@@ -35,7 +36,7 @@
 
 h4{
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     justify-content: left;
     text-align: left;
 }
@@ -47,25 +48,40 @@ p{
 #learnedSkills{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 #textSkills{
     display: flex;
     flex-direction: column;
     padding-left: 2em;
+    margin: 0em;
+    padding: 1em;
 }
 
 h5{
-    background-color: black;
-    color: white;
+    background-color: rgb(215, 212, 212);
+    color: black;
     padding: 1em;
-    border-radius: 1em;
-    margin-top: 0em;
+    border-radius: 2em;
+    margin: 1em;
+    margin-left: 0em;
 }
 
 h6{
     font-size: 1em;
     padding: 0em;
     margin-top: 1em;
+}
+
+#detailsBar{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:3.5em;
+    margin-left: 2.5em;
+    }
+
+#descLink{
+    display: flex;
+    flex-direction: row;
 }

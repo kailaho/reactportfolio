@@ -3,7 +3,7 @@ import React from 'react';
 const ScrollButton = () => {
     const scrollToFunc = () => {
         const targetX = 0;
-        const targetY = 750;
+        const targetY = 900;
 
         window.scrollTo({
             top: targetY, 

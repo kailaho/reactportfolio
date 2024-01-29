@@ -17,6 +17,8 @@ const WebDevProjects = () => {
             skill1={"HTML/CSS"}
             skill2={"Three.js"}
             skill3={"UX/UI Design"}
+            text={"⏵"}
+            link={"/nativePlants"}
         />
 
         <ProjectCard
@@ -27,6 +29,8 @@ const WebDevProjects = () => {
             skill1={"API Calls"}
             skill2={"Developer Tools"}
             skill3={"HTML/CSS"}
+            text={"⏵"}
+            link={"/gnomeStyler"}
         />
 
         <ProjectCard

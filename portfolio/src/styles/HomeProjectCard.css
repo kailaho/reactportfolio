@@ -7,7 +7,7 @@
     position: relative;
     display: inline-block;
     box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5); 
-    border-radius: 2em;
+    border-radius: 2em; 
  }
 
 #Image{
