@@ -12,8 +12,8 @@
    justify-content: center;
    align-items: center;
    margin: 0em;
-   margin-top: 4em;
-   background-color: black; 
+   margin-top: 3em;
+   background-color: rgba(240,240, 240); 
 }
 
 .titleCardButton{
@@ -26,6 +26,7 @@
     padding: .5em;
     border-radius: 2em;
     background-color: white;
+    /* box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5); */
 }
 
 

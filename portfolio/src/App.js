@@ -1,3 +1,8 @@
+/*Notes:
+-Look into github student pack for domain name
+-Copilot 
+*/
+
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -8,8 +13,8 @@ import UXUIProjects from './components/UXUIProjects';
 import WebDevProjects from './components/WebDevProjects';
 import ProductProjects from './components/ProductProjects';
 import Contact from './components/Contact';
-import NativePlants from './components/projectDetails/NativePlants.js';
-import GnomeStyler from './components/projectDetails/GnomeStyler.js';
+import NativePlants from './components/NativePlants.js';
+import GnomeStyler from './components/GnomeStyler.js';
 
 function App() {
   return (

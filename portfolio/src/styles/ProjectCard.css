@@ -1,5 +1,6 @@
 #ProjectCardWrapper{
     box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5); 
+    background-color: white;
     border-radius: 2em;
     display: flex;
     flex-direction: column;

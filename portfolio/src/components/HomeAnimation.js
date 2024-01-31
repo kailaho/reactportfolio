@@ -29,7 +29,7 @@ const HomeAnimation = () => {
   return (
     <>
     
-    <div style={{position: 'absolute', top: '60vh', left: '0', width: '100%', height: '25vh', background: `linear-gradient(to top, white, transparent)`, zIndex: 4}}></div>
+    <div style={{position: 'absolute', top: '59.5vh', left: '0', width: '100%', height: '25vh', backgroundImage: `linear-gradient(to top, rgba(240, 240, 240) , transparent)`, zIndex: 4}}></div>
     <animated.div style={{ ...props, height: '75vh', width: '100%',display: 'flex', flexDirection:'column', alignItems: 'center', justifyContent: 'center', position: 'relative', zIndex: 3}}>
       <h1 style={{padding: '1em', paddingTop:'0em', textAlign:'center', fontSize: '60px', lineHeight:'95px'}}>Hi, my name is <span style={{color: 'black'}}>Kaila</span>. I'm a <span style={{backgroundColor:'white', padding: '0em .3em 0em .3em', borderRadius: '1em', opacity:'80%'}}>UX/UI designer</span>, <span style={{backgroundColor: 'white', padding:'0em .3em 0em .3em', borderRadius: '1em', opacity: '80%'}}>Web Developer</span>, and <span style={{backgroundColor: 'white', padding:'0em .3em 0em .3em', borderRadius: '1em', opacity:'80%'}}>Product Designer</span> based in <span style={{color: 'black'}}>Denver, Colorado</span>.</h1>
     </animated.div>

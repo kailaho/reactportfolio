@@ -3,8 +3,7 @@ import PDFViewer from './PDFViewer';
 
 const About = () => {
     return(
-        <div>
-            <h1>About Page</h1>
+        <div style={{textAlign:"center", margin: "2em", overflow:"scroll"}}>
             <PDFViewer/>
         </div>
     );
