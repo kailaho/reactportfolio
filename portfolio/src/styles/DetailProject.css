@@ -1,0 +1,157 @@
+/* NativePlants.css */
+
+.native-plants-container {
+    margin: 0 auto;
+  }
+
+p{
+  margin-top: 1em;
+}
+  
+#goalsSkills{
+    display: flex;
+    flex-direction: row;
+}
+
+#goalsSkills-col1{
+    display: flex;
+    flex-direction: column;
+}
+
+#link{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: #0e3d82;
+  color: white;
+  padding: 1em;
+  margin-left: 25em;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+.goal{
+  padding: 1em;
+  text-decoration: none;
+}
+
+  h1 {
+    /* Title styles */
+  }
+
+  h2{
+    background-color: white;
+    text-align: left;
+    padding: 0em;
+    margin: 0em;
+  }
+  
+  .description {
+    font-style: italic;
+    font-size: 1.2em;
+    padding-left: 2em;
+  }
+  
+  .skills-section {
+    background-color: #f0f0f0;
+    margin: 2em;
+    padding: 0em;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .skill-item {
+    background-color: #ccc;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    font-weight: bold;
+  }
+  
+  .goals-section {
+    margin: 2em;
+    margin-left: 6em;
+    background-color: #BFDBE7;
+    border-radius: 2em;
+    padding: 1em;
+    width: 50%;
+  }
+
+  #projectGoals{
+    background-color: white;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 3em;
+    padding: 1em;
+  }
+  
+  .design-process-section {
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+  img.iteration{
+    width: 40%;
+    margin-left: 2em;
+    border-radius: 1em;
+  }
+  
+  .ux-testing-section {
+    display: flex;
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    
+  }
+
+  .development-section{
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+  #uxText{
+    margin: 2em;
+  }
+  
+  img.final-product {
+    width: 80%;
+    margin: 2em;
+    border-radius: 1em;
+  }
+
+  .final-images-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 2em;
+  }
+
+  .slideShowButton{
+    background-color: black;
+    color: white;
+    border: none;
+    margin:1em;
+    height: 30%;
+    margin-top: 23em;
+    padding: 1em;
+    border-radius: 2em;
+  }
+  
+  .learning-outcomes-section {
+    margin: 2em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+  
