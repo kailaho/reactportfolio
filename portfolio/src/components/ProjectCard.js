@@ -4,8 +4,10 @@ import LinkButton from './LinkButton';
 
 const ProjectCard = ({title, img, pitch, description, skill1, skill2, skill3, text, link}) => {
     return(
+    <>
     <div id='ProjectCardWrapper'>
-        <div id="row1">
+    <div id='ProjectCard'>
+    <div id="row1">
             <h1>{title}</h1>
         </div>
 
@@ -26,10 +28,6 @@ const ProjectCard = ({title, img, pitch, description, skill1, skill2, skill3, te
                 <div id= "descLink">
                 <p>{description}</p>
                 <div id="detailsBar">
-                <LinkButton 
-                    text={text}
-                    link={link}
-                />
                 </div>
                 </div>
             </div>
@@ -44,6 +42,19 @@ const ProjectCard = ({title, img, pitch, description, skill1, skill2, skill3, te
      
 
     </div>
+
+    <div id="linkButtonProj">
+        <LinkButton 
+            text={text}
+            link={link}
+            />
+    </div>
+        
+    </div>
+        
+    
+       
+    </>
     );
 };
 

@@ -2,9 +2,10 @@
 
 import React, {useState} from 'react';
 import '../styles/DetailProject.css'; // Import your CSS file for styling
+import LinkButton from './LinkButton';
+import { Link } from 'react-router-dom';
 
-const DetailProject = ({projectTitle, projectDesc, projectLink, skill1, skill2, skill3, goal1, goal2, 
-    goal3, designProcess, img1, ux, development, finalImages, learningOutcomes }) => {
+const DetailProject = ({projectTitle, projectDesc, projectLink, skills, goals, designProcess, img1, ux, development, finalImages, learningOutcomes, backToLink, backToWhere}) => {
 
         const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -17,32 +18,35 @@ const DetailProject = ({projectTitle, projectDesc, projectLink, skill1, skill2, 
     <div className="native-plants-container">
     <div id="goalsSkills">
         <div id="goalsSkills-col1">
-            <h1>{projectTitle}</h1>
+            <h1 className="detailh1">{projectTitle}</h1>
             <p className="description">{projectDesc}</p>
 
-           
+            
 
             <div className="skills-section">
-                <div className="skill-item">{skill1}</div>
-                <div className="skill-item">{skill2}</div>
-                <div className="skill-item">{skill3}</div>
+                <div className="skill-item">{skills[0]}</div>
+                <div className="skill-item">{skills[1]}</div>
+                <div className="skill-item">{skills[2]}</div>
                 {/* Add more skills as needed */}
             </div>
 
-            <div> <a id ="link" href={projectLink}>Project Link</a></div>
+            <div> <a className ="link" href={projectLink}>Project Link</a></div>
+            
         </div>
         
 
       <div className="goals-section">
         <h2 id= "projectGoals">Project Goals</h2>
-        <ul>
-          <li className="goal">{goal1}</li>
-          <li className="goal">{goal2}</li>
-          <li className="goal">{goal3}</li>
+        <ul id="goalList">
+          <li className="goal">{goals[0]}</li>
+          <li className="goal">{goals[1]}</li>
+          <li className="goal">{goals[2]}</li>
           {/* Add more goals as needed */}
         </ul>
-        
       </div>
+
+      
+
     </div>
       
 
@@ -72,9 +76,11 @@ const DetailProject = ({projectTitle, projectDesc, projectLink, skill1, skill2, 
     
 
       <div className="learning-outcomes-section">
-        <h2>Learning Outcomes</h2>
+        <h2>Demonstrated Learning</h2>
         <p>{learningOutcomes}</p>
       </div>
+
+      <LinkButton id ="backButton"text={backToWhere} link={backToLink}></LinkButton>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const WebDevProjects = () => {
             skill1={"HTML/CSS"}
             skill2={"Three.js"}
             skill3={"UX/UI Design"}
-            text={"⏵"}
+            text={"▶"}
             link={"/nativePlants"}
         />
 
@@ -29,7 +29,7 @@ const WebDevProjects = () => {
             skill1={"API Calls"}
             skill2={"Developer Tools"}
             skill3={"HTML/CSS"}
-            text={"⏵"}
+            text={"▶"}
             link={"/gnomeStyler"}
         />
 
@@ -41,6 +41,7 @@ const WebDevProjects = () => {
             skill1={"Skill 1"}
             skill2={"Skill 2"}
             skill3={"Skill 3"}
+            text={"▶"}
         />
         </>
     );
