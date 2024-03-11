@@ -30,7 +30,7 @@ const DetailProject = ({projectTitle, projectDesc, projectLink, skills, goals, d
                 {/* Add more skills as needed */}
             </div>
 
-            <div> <a className ="link" href={projectLink}>Project Link</a></div>
+            <div> <a className ="link" target="_blank" href={projectLink}>Project Link</a></div>
             
         </div>
         

@@ -20,6 +20,7 @@ p{
 #goalsSkills-col1{
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 #backButton{
@@ -63,15 +64,21 @@ p{
   h3{
     color: black;
   }
+
   .description {
     font-style: italic;
     font-size: 1.2em;
     padding-left: 2em;
+    margin-left: 1em;
+    margin-top: 0em;
+    
   }
   
   .skills-section {
     
-    margin: 2em;
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-left: 2em;
     padding: 0em;
     display: flex;
     flex-direction: row;
@@ -116,7 +123,7 @@ p{
   }
 
   img.iteration{
-    width: 30%;
+    width: 50%;
     margin-left: 2em;
     border-radius: 1em;
   }
@@ -142,7 +149,7 @@ p{
   }
   
   img.final-product {
-    width: 80%;
+    width: 55%;
     margin: 2em;
     border-radius: 1em;
   }
@@ -150,7 +157,7 @@ p{
   .final-images-section{
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
     padding: 1em;
     border-radius: 1em;
     margin: 2em;

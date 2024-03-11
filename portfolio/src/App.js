@@ -15,6 +15,14 @@ import ProductProjects from './components/ProductProjects';
 import Contact from './components/Contact';
 import NativePlants from './components/NativePlants.js';
 import GnomeStyler from './components/GnomeStyler.js';
+import BuffBuffs from './components/BuffBuffs.js';
+import PortfoliPro from './components/Portfolipro.js';
+import ReactPortfolio from './components/ReactPortfolio.js';
+import SensoryAquarium from './components/SensoryAquarium.js';
+import Matcha from './components/Matcha.js';
+import Chess from './components/Chess.js';
+import HandCompression from './components/HandCompression.js';
+import Steg from './components/Steg.js';
 
 function App() {
   return (
@@ -30,6 +38,14 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/nativePlants" element={<NativePlants/>}/>
         <Route path="/gnomeStyler" element={<GnomeStyler/>}/>
+        <Route path="/buffBuffs" element={<BuffBuffs/>}/>
+        <Route path="/portfoliPro" element={<PortfoliPro/>}/>
+        <Route path="/portfolio" element={<ReactPortfolio/>}/>
+        <Route path="/sensoryAquarium" element={<SensoryAquarium/>}/>
+        <Route path="/matcha" element={<Matcha/>}/>
+        <Route path="/chess" element ={<Chess/>}/>
+        <Route path="/handCompression" element={<HandCompression/>}/>
+        <Route path="/steg" element={<Steg/>}/>
       </Routes>
     </div>
    </Router>
